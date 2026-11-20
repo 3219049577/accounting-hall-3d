@@ -3,12 +3,23 @@
 AI 辅助搭建的个人专业主题 3D 虚拟展厅。技术栈：React 19 + TypeScript + Vite + Three.js + React Three Fiber + Drei + Zustand。
 全部展品模型、屏幕画面与铭牌均由程序化几何体 / Canvas 纹理生成，不依赖任何外部模型、字体或图片资源，离线可运行。
 
+## 在线访问（无需安装）
+
+GitHub Pages：https://3219049577.github.io/accounting-hall-3d/
+
 ## 启动说明
 
 环境要求：Node.js >= 18（推荐 20/22），npm >= 9；桌面 Chrome 或 Edge。
 
 ```bash
 npm install
+npm run dev
+```
+
+国内网络若 npm 官方源缓慢或超时，改用国内镜像源安装：
+
+```bash
+npm install --registry=https://registry.npmmirror.com
 npm run dev
 ```
 
